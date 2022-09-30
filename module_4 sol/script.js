@@ -3,9 +3,12 @@
 
   for (var i in names) {
     var firstLetter = names[i].charAt(0).toLowerCase();
-    if (firstLetter === 'j') {
-      byeSpeaker.speak(names[i]);
-    } else {
+    if (firstLetter === 'j') 
+    {
+      goodbyeSpeaker.speak(names[i]);
+    } 
+    else 
+    {
       helloSpeaker.speak(names[i]);
     }
   }
